@@ -1,0 +1,55 @@
+
+h1 {
+    color: black;
+    border: 5px solid blue;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+}
+
+div.gallery{
+    border: 3px solid green;
+    padding: 30px;
+    text-align: center;
+    width: 900px;
+    /* margin-left: auto;
+    margin-right: auto; */
+
+    margin: 0 auto 0 auto;
+
+    margin: 0 auto;
+    width: 50%;
+}
+
+/* Remelis is visu pusiu */
+
+/* div.gallery img {
+    border-color: red;
+    border-width: 10px;
+    border-style: solid;
+} */
+
+/* Remelis is virsaus */
+
+/* div.gallery img {
+    border-top-color: red;
+    border-top-width: 10px;
+    border-top-style: solid;
+} */
+
+/* Remelis is virsaus ir apacios */
+
+div.gallery img {
+    /* border-top-color: red;
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-bottom-color: red;
+    border-bottom-width: 10px;
+    border-bottom-style: solid; */
+
+    border: 10px dashed blue;
+    padding-top: 20px;
+    padding: 20px 0px 20px 0px;
+    background-color: red;
+    margin: 30px 0 30px 0;
+
+}

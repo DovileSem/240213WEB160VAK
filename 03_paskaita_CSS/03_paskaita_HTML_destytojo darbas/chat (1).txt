@@ -1,0 +1,5 @@
+18:27:52	 From Lektorius : https://validator.w3.org/
+19:07:31	 From Lektorius : h1 {    color: red;}
+20:10:48	 From Lektorius : https://www.w3schools.com/cssref/css_selectors.php
+20:37:34	 From Lektorius : <div class="pirmas">        <p>Tekstas 1</p>        <div class="pirmas-vidinis">            <p>Tekstas 2</p>        </div>    </div>    <div class="antras">        <p>Tekstas 3</p>        <div class="antras-vidinis">            <p>Tekstas 4</p>        </div>    </div>
+21:33:10	 From Lektorius : https://www.w3schools.com/cssref/css_units.php

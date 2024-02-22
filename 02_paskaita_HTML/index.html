@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirma paskaita</title>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+
+    <!-- Antraste uzkomentuojma Ctrl + / -->
+
+    <!-- h1- antraste -->
+
+    <h1> PRADEDAME MOKYTIS KURTI SVETAINES</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Ipsum natus reprehenderit <b>DOLERIS</b> quidem impedit, deleniti, totam reiciendis aut,
+        quo tempora iusto dolores veniam eveniet necessitatibus nobis eius provident!
+        Delectus, eligendi magnam?</P>
+
+    <h3>Kazkoks tekstas</h3>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Ipsum natus reprehenderit <b><U>DOLERIS</U></b> quidem impedit, deleniti, totam reiciendis aut,
+        quo tempora iusto dolores veniam eveniet necessitatibus nobis eius provident!
+        Delectus, eligendi magnam?</P>
+
+    <h3>Kazkoks tekstas</h3>
+
+    <table>
+        <tr>
+            <th>Tekstas1</th>
+            <th>Tekstas2</th>
+            <th>Tekstas3</th>
+            <th rowspan="3">Tekstas4</th>
+        </tr>
+        <tr>
+            <td>Tekstas1</td>
+            <td>Tekstas2</td>
+            <td>Tekstas3</td>
+        </tr>
+        <tr>
+            <td>Tekstas1</td>
+            <td colspan="2">Tekstas2</td>
+        </tr>
+
+    </table>
+
+
+
+    <h5>Kazkoks tekstas</h5>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Ipsum natus reprehenderit <b><U>DOLERIS</U></b> quidem impedit, deleniti, totam reiciendis aut,
+        quo tempora iusto dolores veniam eveniet necessitatibus nobis eius provident!
+        Delectus, eligendi magnam?</P>
+
+
+    <form action="">
+        <label for="vartotojo vardas">Vartotojo vardas:</label>
+        <input id="vartotojo vardas" type="text"><br>
+        <label for="">Pasirinkite data:</label>
+        <input type="date"><br>
+        <label for="">Pasirinkite laika:</label>
+        <input type="time">
+
+        <br><br>
+
+        <form action="">
+            <fieldset>
+                <legend>Papildoma informacija:</legend>
+
+                <label for="vartotojovardas">Vartotojo vardas:</label>
+                <input id="vartotojovardas" type="text">
+
+                <br><br>
+
+                <span>Gender:</span>
+                <br>
+                <label for="male">Male:</label>
+                <input name="gender" id="male" type="radio">
+
+                <label for="female">Female:</label>
+                <input name="gender" id="female" type="radio">
+
+                <label for="other">Other:</label>
+                <input name="gender" id="other" type="radio">
+
+                <br><br>
+
+                <select name="miestas" id="miestas">
+                    <option value="vilnius">Vilnius</option>
+                    <option value="kaunas">Kaunas</option>
+                    <option value="klaipeda">Klaipeda</option>
+                </select>
+
+                <br><br>
+                <label for="more">Papildoma informacija:</label>
+                <br><br>
+                <textarea name="more" id="more" cols="50" rows="8">Cia parasykite papildoma informacija...</textarea>
+
+                <br><br>
+
+                <label for="sutinku">Sutinku:</label>
+                <input id="sutinku" type="checkbox">
+
+                <!-- <input type="submit" value="Pateikti"> -->
+                <br><br>
+                <button>Pateikti</button>
+
+            </fieldset>
+        </form>
+
+
+    </form>
+
+
+    <!-- p- paragrafas -->
+    <P> PRADEDAME MOKYTIS KURTI SVETAINES</P>
+
+    <!-- Automatinis kodo formatavimas: Shift + Alt +F -->
+
+
+    <!-- Ribotas sarasas -->
+    <ul>
+        <li>Saraso punktas 1</li>
+        <li>Saraso punktas 2</li>
+        <li>Saraso punktas 3</li>
+    </ul>
+
+    <!-- Ribotas sarasas su atributais -->
+
+    <ol reversed="reversed" start="10" type="I">
+        <li>Saraso punktas 1</li>
+        <li>Saraso punktas 2</li>
+        <li>Saraso punktas 3</li>
+    </ol>
+
+    <!-- Absoliucios nuorodos -->
+    <a href="https://www.google.com">Google</a>
+
+    <!-- Reliatyvios nuorodos -->
+    <a href="puslapiai/papildomas.html">Papildomas</a>
+
+
+    <!-- Puslapis atsidaro naujame lange -->
+
+    <a target="_blank" href="https://www.google.com">Google</a> <br>
+
+    <!-- Nuotrauka is interneto -->
+
+    <img src="https://picsum.photos/500/500" alt="Piesinukai is interneto">
+
+    <!-- Lokali foto. Alt- aprasoma paveikslelio reiksme, kad kodui nesuveikus
+         butu papildoma informacija apie toje vietoje esancia foto-->
+
+    <img src="images/web.png" alt="Piesinukai is kompiuterio" title="Papildoma informacija. Cia as mokausi.">
+
+
+
+</head>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+h1 {
+    color: rgb(255, 0, 140)(0, 17, 255);
+    background-color: aquamarine;
+}
+
+h1:hover{
+    background-color: brown;
+}
+
+p{
+    color: blueviolet;
+    background-color: burlywood;
+}
+
+/* id-selektorius svarbiausias */
+
+#svarbus-sarasas {
+    background-color: chartreuse;
+}
+
+
+/* class selektorius maziau svarbus uz id */
+.raudonas-tekstas{
+    color: brown;
+}
+
+.pilkas-fonas{
+    background-color: gray;
+}
+
+#kazkoks.raudonas-tekstas.pilkas-fonas {
+    font-size: 40px;
+}
+
+.sarasas{
+    background-color: rgb(221, 175, 106);
+}
+
+/* elemento pavadinimo selektorius maziausiai svarbus, jis eina po class */
+
+ul {
+    background-color: blue;
+}
+
+div.antras p {
+color: rgb(241, 47, 17);
+background-color: rgb(43, 168, 226);
+}
+
+div.pirmas div.pirmas-vidinis p {
+    color:rgb(196, 181, 183);
+    background-color: crimson;
+    
+    }
