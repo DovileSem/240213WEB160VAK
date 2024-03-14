@@ -4,13 +4,14 @@
 
 body {
     margin: 0;
-
+    font: inherit;
+}
 
     /* padding: 0;
     border: 0;
     vertical-align: baseline;
-    font: inherit; */
-}
+    
+/* } */
 
 /* .right {
     float: right;
@@ -25,19 +26,17 @@ body {
 .banner {
     width: 100%;
     height: 700px;
-    background-image: url(../img/tower.jpg);
+    background-image: url(../img/tower-web5.jpg);
+    /* background-image: url(../img/tower.jpg); */
     background-size: cover;
     background-position: center;
 }
 
 .tower-header { 
     background: white; 
-    font-size: 18px; 
-    /* height: 80px;  */
+    font-size: 20px; 
     text-transform: uppercase; 
-    /* position: relative;  */
-    /* z-index: 6;  */
-    padding: 15px;
+    /* padding: 15px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,7 +45,6 @@ body {
 nav li {
     list-style: none;
     display: inline-block;
-    /* cursor: pointer; */
     text-align: center;
     width: 120px;
     padding: 15px;
@@ -67,26 +65,109 @@ nav li a {
   nav li#page5_link.active, nav li#page5_link:hover { border-top-color: #50AF98; }
 
 
+  #page2 {
+        z-index: 4;
+        background: #0A758F;
+        width: 100%;
+        color: white;
+        overflow: hidden;
+  }
 
-  /* .services {
-  
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+  /* .page {
+    position: absolute;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: white;
 } */
+
+.page-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.templatemo-item {
+    padding: 10px;
+    width: 33.33333%;
+    text-align: center;
+}
+
+.templatemo-item h3 {
+    font-size: 25px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.templatemo-item p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.rounded.fa {
+    font-size: 1.6em;
+    color: rgb(233, 233, 233);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 27px 25px 25px 25px;
+    width: 80px;
+    height: 78px;
+}
+
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Mūsų klientai nuomojantys ofisus */
 
 .client {
     width: 100%;
     background-color: #0A758F;
 }
 
-.client h3 {
-    color: #fff;
+.templatemo-client {
+    padding: 10px;
+    width: 20%;
     text-align: center;
-    font-size: 24px;
-
 }
 
-.client-container img {
-  margin: 0;
+.templatemo-client img {
+    width: 100%;
 }
+
+  .client {
+    text-align: center;
+    color: #fff;
+  }
+
+  .client-container {
+    display: inline-block;
+  }
+
+  .client-container img {
+    margin: 0 10px; /* Papildomas tarpas tarp klientų logotipų */
+  }
+
 
 .contact {
     background-color: #0A758F;
@@ -99,8 +180,7 @@ nav li a {
 }
 
 .form-container {
-    width: 50%;
-    padding-right: 20px;
+    width: 50%;    
 }
 
 .form-container {
@@ -122,13 +202,14 @@ nav li a {
 
 .form-container h3 {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 0.5rem;
     margin-top: 0px;
 }
 
 .contact-form {
     width: 100%;
+    font-size: 10px ;
 }
 
 .contact-form input,
