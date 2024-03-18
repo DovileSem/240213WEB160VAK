@@ -25,7 +25,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -48,14 +48,21 @@ body {
     align-items: center;
   }
 
+nav ul {
+    display: flex;
+}
+
 nav li {
     list-style: none;
     display: inline-block;
     text-align: center;
-    width: 120px;
+    width: 140px;
     padding: 15px;
     margin: 0 10px;
     border-top: 2px solid rgb(233,233,233);
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
 nav li a {
@@ -121,7 +128,7 @@ nav {
 
 .container h1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .templatemo-item p {
@@ -182,6 +189,7 @@ nav {
 
 .contact {
     background-color: #0A758F;
+    padding-bottom: 75px;
 }
 
 .contact .container {
@@ -255,3 +263,30 @@ nav {
    
 }
 
+/* Puslapio apačioje esantys kontaktai */
+
+footer {
+    background-color: #0e5769;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-content p {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+}
+
+.email-link {
+    color: white;
+    text-decoration: none;
+}
+
+.phone-link {
+    color: white;
+    text-decoration: none;
+}
